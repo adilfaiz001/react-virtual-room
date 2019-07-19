@@ -1,0 +1,6 @@
+virtual-room-backend/node_modules
+virtual-room-frontend/node_modules
+
+virtual-room-backend/bin
+virtual-room-backend/mongodb
+virtual-room-backend/config

@@ -1,0 +1,4 @@
+node_modules/
+bin/encryption
+mongodb.js
+bin/www.js
