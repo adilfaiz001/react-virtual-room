@@ -1,3 +1,57 @@
+
+# virtual room frontend
+
+Virtual Room is a project for realtime communication in audio, video and chat. 
+
+## Frontend technology stack :
+* React v16
+* Redux
+* WebRTC
+
+## Application Structure
+
+```
+.
+├── public                  # Static public assets and build
+├── src                     #  
+│   ├── actions             # 
+│   ├── components
+|   |   ├── auth
+|   |   ├── dashboard
+|   |   ├── layout
+|   |   └── private-route
+|   |
+|   |
+│   ├── reducers            # 
+|   ├── utils               #
+|   ├── store.js            #
+|   └── index.js            #
+|
+├── server.js               # testing socket routes and this will be moved to virtual room backend.
+```
+
+## WebRTC 
+
+WebRTC is a web standard for Peer to Peer (P2P) voice and video chats (and data) that works natively in the browser (read: no plugins!). Unlike the complex, proprietary voice/video platforms of ages past, the WebRTC standard is intended to be implemented solely with HTML5 and a relatively simple Javascript API.
+
+### Untangaling the WebRTC Flow
+
+![WebRTC Flow](https://www.pkc.io/assets/images/blog/WebRTC.svg)
+
+Ref - https://www.pkc.io/blog/untangling-the-webrtc-flow/
+
+#### WebRTC Guides 
+* https://codelabs.developers.google.com/codelabs/webrtc-web/#0
+* https://developer.mozilla.org/en-US/docs/Web/API/WebRTC_API  -  Mozilla Documentation
+* https://www.html5rocks.com/en/tutorials/webrtc/basics/#toc-rtcpeerconnection
+* https://www.pkc.io/blog/untangling-the-webrtc-flow/
+
+- - - -
+- - - -
+- - - -
+
+# React App Development
+
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
 ## Available Scripts
@@ -37,32 +91,3 @@ Instead, it will copy all the configuration files and the transitive dependencie
 
 You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
 
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/code-splitting
-
-### Analyzing the Bundle Size
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size
-
-### Making a Progressive Web App
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app
-
-### Advanced Configuration
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/advanced-configuration
-
-### Deployment
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/deployment
-
-### `npm run build` fails to minify
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify
